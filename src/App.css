@@ -150,12 +150,19 @@ body{
 }
 
 /* Footer */
+.footer-div{
+  box-shadow: 0 -1px 2px #000000;
+}
 footer{
+  padding-top: 5px;
   margin: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
+  
+  /* box-shadow: 0 0 5px #000000; */
+  /* width: 1px; */
 }
 
 footer a img{
